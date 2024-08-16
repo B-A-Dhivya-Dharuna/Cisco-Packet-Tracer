@@ -2,13 +2,14 @@
 
 A glimpse of the virtual internship, I had completed for Cisco using Cisco Packet Tracer tool.
 
-[**Part 1 Problem Statement**](#part-1) | [**Part 1 Proposed Solution**](#proposed-solution)
+[**Part 1 Problem Statement**](#part-1) 
+[**Part 1 Proposed Solution**](#proposed-solution)
 
 Cyber Shield: Defending the network
 
-# Problem Statement:
+# PART 1:
 
-## PART 1:
+## Problem Statement:
 Analyse your existing university/college campus network topology. Map it out the using Cisco Packet Tracer and identify the security controls that are in place today. Consider and note how network segmentation is done. Observe what kind of intrusion detection systems, firewalls, authentication and authorization systems are in place. Apply the knowledge gained from the NetAcad cyber security course to conduct an attack surface mapping. Aim to identify potential entry points for cyber-attacks. Propose countermeasures to mitigate these risks.
 Tasks:
 1.	Campus Network Analysis: conduct an analysis of your college campus network topology, including the layout, devices, and connections.
