@@ -2,7 +2,7 @@
 
 A glimpse of the virtual internship, I had completed for Cisco using Cisco Packet Tracer tool.
 
-[**Part 1 Problem Statement 1**](#problem-statement-1) | [**Part 1 Proposed Solution 1**](#proposed-solution-1) | [**Part 2 Problem Statement 2**](#problem-statement-2) | [**Part 2 Proposed Solution 2**](#proposed-solution-2)
+[**Part 1 Problem Statement 1**](#problem-statement-1) | [**Part 1 Proposed Solution 1**](#proposed-solution-1) | [**Part 2 Problem Statement 2**](#problem-statement-2) | [**Part 2 Proposed Solution 2**](#proposed-solution-2) | [**Part 3 Problem Statement 3**](#problem-statement-3) | [**Part 3 Proposed Solution 3**](#proposed-solution-3)
 
 Cyber Shield: Defending the network
 
@@ -89,5 +89,42 @@ Countermeasures: Implementing multi-factor authentication for user access and en
 
 Network Mapping
  
-[**Part 2.pkt**](./Part%202.pkt) of the repository shows the proposed architecture for part 1 of the problem statement. The given picture includes two Routers named Router0 and Cloud Router, wherein Router0 serves as the main router connecting to the Multilayer Switch, the Cloud Router, and the Activity Centre. The activity center is like the sports center which is open to all kinds of sports and is the place where the Department of Student Services resides. The Multilayer Switch has the main architecture consisting of a switch connected 3 servers named Server0, Server1, and Server3, and a Wireless LAN Controller named Wireless LAN Controller0 which is used to manage wireless network access points that wireless devices connect to the network, and a firewall installed to the library filtering incoming and outgoing traffic on the network, blocking unauthorized access and potential threats and essentially helping in protecting the network data and resources. Further, it expands its connection to Admin Block, Learning Center 1, Learning Centre 2, and Library having a PC, a Laptop, and a Printer to each network and is assigned to an IP address for configuration.
+[**Part 2.pkt**](./Part%202.pkt) of the repository shows the proposed architecture for part 2 of the problem statement. The given picture includes two Routers named Router0 and Cloud Router, wherein Router0 serves as the main router connecting to the Multilayer Switch, the Cloud Router, and the Activity Centre. The activity center is like the sports center which is open to all kinds of sports and is the place where the Department of Student Services resides. The Multilayer Switch has the main architecture consisting of a switch connected 3 servers named Server0, Server1, and Server3, and a Wireless LAN Controller named Wireless LAN Controller0 which is used to manage wireless network access points that wireless devices connect to the network, and a firewall installed to the library filtering incoming and outgoing traffic on the network, blocking unauthorized access and potential threats and essentially helping in protecting the network data and resources. Further, it expands its connection to Admin Block, Learning Center 1, Learning Centre 2, and Library having a PC, a Laptop, and a Printer to each network and is assigned to an IP address for configuration.
 
+# PART 3:
+
+## Problem Statement 3
+
+The college has discovered that students are misusing campus resources and accessing irrelevant sites. They want a solution which will restrict access to only allowed categories of web content.
+Tasks & Deliverables:
+1. Explore how this can be achieved and what kind of network security product can provide this capability.
+2. Update the campus network topology with new component(s)
+3. Explain the reasoning behind your choice, detailing the risks & advantages of your proposed solution
+4. Write the policies you would apply (can use simple English language commands)
+
+# Proposed Solution 3
+To achieve a secure and efficient hybrid working environment, given below is the proposed network architecture that incorporates the following components: 
+1. Core Layer: A 2960 switch acting as the core, connecting multiple distribution switches. 
+2. Distribution Layer: Multiple 2960 and 3650 switches handling VLAN segmentation and traffic distribution. 
+3. Access Layer: Access switches (2960) connecting end devices like PCs, laptops, printers, and servers. 
+4. Wireless Layer: A WLC 3504 managing wireless access points for wireless clients. 
+5. VLAN Segmentation: Implementing additional VLANs for specific services (e.g., faculty resources, student resources, guest access) and maintaining for network segmentation 
+6. Firewall: Deploying a next-generation firewall (NGFW) at the network perimeter to protect against advanced threats.
+7. Web Content Filtering Proxy: Examines web traffic, filtering content based on predefined policies which sits between the campus network and the internet.
+
+VLAN Segmentation:
+Traffic is divided into segments by the network using VLANs, which are defined for VLANs 10, 20, 30, and 40. Although it offers some isolation, more than this basic type of network segmentation might be needed for more complex security needs.
+Potential Security Risks and Countermeasures
+1. Lack of Perimeter Security: Without a firewall, the network is vulnerable to outside attacks. 
+Countermeasure: Installing a firewall to filter traffic and stop illegal access at the network's edge. 
+2. Inadequate Network segregation: VLANs offer some segregation, but more is required. 
+Countermeasure: Putting in place more detailed VLANs according to departments, user roles, or vital systems. To limit traffic flow, think about utilizing access control lists (ACLs) and VLAN tagging. 
+3. Vulnerable Wireless Network: Attackers can target a wireless network without clear security measures. 
+Countermeasures: Using network access control (NAC) to limit access to the wireless network, turning on strong encryption (WPA3), and utilizing a reliable authentication method (802.1X). 
+4. Server and Device Vulnerability: Servers and devices without proper patching and configuration are vulnerable to attacks. 
+Countermeasures: Maintain up-to-date operating systems, applications, and firmware. Implement regular vulnerability scanning and patching.
+5. Ineffective Content Control:  Lack of granular control over web access, leading to unauthorized access to inappropriate or unproductive content.
+Countermeasure: Implementing a web content filtering proxy to enforce strict control over website access based on predefined categories and policies.
+
+Network Mapping
+[**Part 3.pkt**](./Part%203.pkt) of the repository shows the proposed architecture for part 2 of the problem statement. The given picture includes two Routers named Router0 and Cloud Router, wherein Router0 serves as the main router connecting to the Multilayer Switch, the Cloud Router, and the Activity Centre. The activity center is like the sports center which is open to all kinds of sports and is the place where the Department of Student Services resides. The Multilayer Switch has the main architecture consisting of a switch connected 3 servers named Server0, Server1, and Proxy Server, and a Wireless LAN Controller named Wireless LAN Controller0 which is used to manage wireless network access points that wireless devices connect to the network. A proxy server is used to filter web traffic and block access to harmful websites, reducing the risk of infection. A firewall installed in the library is used to filter incoming and outgoing traffic on the network, blocking unauthorized access and potential threats and essentially helping protect the network data and resources. Further, it expands its connection to Admin Block, Learning Center1, Learning Centre2, and Library having a PC, a Laptop, and a Printer to each network and is assigned to an IP address for configuration.
