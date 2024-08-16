@@ -102,7 +102,8 @@ Tasks & Deliverables:
 3. Explain the reasoning behind your choice, detailing the risks & advantages of your proposed solution
 4. Write the policies you would apply (can use simple English language commands)
 
-# Proposed Solution 3
+## Proposed Solution 3
+
 To achieve a secure and efficient hybrid working environment, given below is the proposed network architecture that incorporates the following components: 
 1. Core Layer: A 2960 switch acting as the core, connecting multiple distribution switches. 
 2. Distribution Layer: Multiple 2960 and 3650 switches handling VLAN segmentation and traffic distribution. 
@@ -127,4 +128,5 @@ Countermeasures: Maintain up-to-date operating systems, applications, and firmwa
 Countermeasure: Implementing a web content filtering proxy to enforce strict control over website access based on predefined categories and policies.
 
 Network Mapping
+
 [**Part 3.pkt**](./Part%203.pkt) of the repository shows the proposed architecture for part 2 of the problem statement. The given picture includes two Routers named Router0 and Cloud Router, wherein Router0 serves as the main router connecting to the Multilayer Switch, the Cloud Router, and the Activity Centre. The activity center is like the sports center which is open to all kinds of sports and is the place where the Department of Student Services resides. The Multilayer Switch has the main architecture consisting of a switch connected 3 servers named Server0, Server1, and Proxy Server, and a Wireless LAN Controller named Wireless LAN Controller0 which is used to manage wireless network access points that wireless devices connect to the network. A proxy server is used to filter web traffic and block access to harmful websites, reducing the risk of infection. A firewall installed in the library is used to filter incoming and outgoing traffic on the network, blocking unauthorized access and potential threats and essentially helping protect the network data and resources. Further, it expands its connection to Admin Block, Learning Center1, Learning Centre2, and Library having a PC, a Laptop, and a Printer to each network and is assigned to an IP address for configuration.
