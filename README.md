@@ -2,7 +2,7 @@
 
 A glimpse of the virtual internship, I had completed for Cisco using Cisco Packet Tracer tool.
 
-[**Part 1 Problem Statement 1**](#problem-statement-1) | [**Part 1 Proposed Solution 1**](#proposed-solution-1) | [**Part 2 Problem Statement 2**](problem-statement-2) | [**Part 2 Proposed Solution 2**](#proposed-solution-2)
+[**Part 1 Problem Statement 1**](#problem-statement-1) | [**Part 1 Proposed Solution 1**](#proposed-solution-1) | [**Part 2 Problem Statement 2**](#problem-statement-2) | [**Part 2 Proposed Solution 2**](#proposed-solution-2)
 
 Cyber Shield: Defending the network
 
