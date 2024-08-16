@@ -2,13 +2,13 @@
 
 A glimpse of the virtual internship, I had completed for Cisco using Cisco Packet Tracer tool.
 
-[**Part 1 Problem Statement**](#problem-statement) | [**Part 1 Proposed Solution**](#proposed-solution) | [**Part 2 Problem Statement**](problem-statement) | [**Part 2 Proposed Solution**](#proposed-solution)
+[**Part 1 Problem Statement 1**](#problem-statement-1) | [**Part 1 Proposed Solution 1**](#proposed-solution-1) | [**Part 2 Problem Statement 2**](problem-statement-2) | [**Part 2 Proposed Solution 2**](#proposed-solution-2)
 
 Cyber Shield: Defending the network
 
 # PART 1:
 
-## Problem Statement:
+## Problem Statement 1:
 Analyse your existing university/college campus network topology. Map it out the using Cisco Packet Tracer and identify the security controls that are in place today. Consider and note how network segmentation is done. Observe what kind of intrusion detection systems, firewalls, authentication and authorization systems are in place. Apply the knowledge gained from the NetAcad cyber security course to conduct an attack surface mapping. Aim to identify potential entry points for cyber-attacks. Propose countermeasures to mitigate these risks.
 Tasks:
 1.	Campus Network Analysis: conduct an analysis of your college campus network topology, including the layout, devices, and connections.
@@ -18,7 +18,7 @@ Deliverables:
 1.	Network topology diagram depicting the existing infrastructure and attack surface findings.
 2.	Security assessment report highlighting identified security risks, proposed solutions and countermeasures to mitigate attack surface risks
 
-## Proposed Solution
+## Proposed Solution 1
 
 To achieve a secure and efficient hybrid working environment, given below is the proposed network architecture that incorporates the following components:
 1.	Core Layer: Several distribution switches are connected by a 2960 switch that serves as the core.
@@ -45,7 +45,7 @@ Network Mapping
 
 # PART 2
 
-## Problem Statement
+## Problem Statement 2
 
 Your college has hired you to design and architect a hybrid working environment for its faculty and students.
 Faculty members will be provided with laptops by the college to connect to the college network and access faculty specific services & resources
@@ -57,7 +57,7 @@ Tasks:
 2.	Update the campus network topology with the new components
 3.	Explain the reasoning behind your choices detailing the risks & advantages of your proposed solution
  
-## Proposed Solution
+## Proposed Solution 2
 
 To achieve a secure and efficient hybrid working environment, given below is the proposed network architecture that incorporates the following components:
 1.	Core Layer: A 2960 switch acting as the core, connecting multiple distribution switches.
