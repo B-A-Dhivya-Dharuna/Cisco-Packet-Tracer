@@ -2,7 +2,7 @@
 
 A glimpse of the virtual internship, I had completed for Cisco using Cisco Packet Tracer tool.
 
-[**Part 1 Problem Statement**](#problem-statement) | [**Part 1 Proposed Solution**](#proposed-solution)
+[**Part 1 Problem Statement**](#problem-statement) | [**Part 1 Proposed Solution**](#proposed-solution) | [**Part 2 Problem Statement**](problem-statement) | [**Part 2 Proposed Solution**](#proposed-solution)
 
 Cyber Shield: Defending the network
 
@@ -57,7 +57,6 @@ Tasks:
 2.	Update the campus network topology with the new components
 3.	Explain the reasoning behind your choices detailing the risks & advantages of your proposed solution
  
-
 ## Proposed Solution
 
 To achieve a secure and efficient hybrid working environment, given below is the proposed network architecture that incorporates the following components:
@@ -90,5 +89,5 @@ Countermeasures: Implementing multi-factor authentication for user access and en
 
 Network Mapping
  
-Part 2.pkt of the repository shows the proposed architecture for part 1 of the problem statement. The given picture includes two Routers named Router0 and Cloud Router, wherein Router0 serves as the main router connecting to the Multilayer Switch, the Cloud Router, and the Activity Centre. The activity center is like the sports center which is open to all kinds of sports and is the place where the Department of Student Services resides. The Multilayer Switch has the main architecture consisting of a switch connected 3 servers named Server0, Server1, and Server3, and a Wireless LAN Controller named Wireless LAN Controller0 which is used to manage wireless network access points that wireless devices connect to the network, and a firewall installed to the library filtering incoming and outgoing traffic on the network, blocking unauthorized access and potential threats and essentially helping in protecting the network data and resources. Further, it expands its connection to Admin Block, Learning Center 1, Learning Centre 2, and Library having a PC, a Laptop, and a Printer to each network and is assigned to an IP address for configuration.
+[**Part 2.pkt**](./Part%202.pkt) of the repository shows the proposed architecture for part 1 of the problem statement. The given picture includes two Routers named Router0 and Cloud Router, wherein Router0 serves as the main router connecting to the Multilayer Switch, the Cloud Router, and the Activity Centre. The activity center is like the sports center which is open to all kinds of sports and is the place where the Department of Student Services resides. The Multilayer Switch has the main architecture consisting of a switch connected 3 servers named Server0, Server1, and Server3, and a Wireless LAN Controller named Wireless LAN Controller0 which is used to manage wireless network access points that wireless devices connect to the network, and a firewall installed to the library filtering incoming and outgoing traffic on the network, blocking unauthorized access and potential threats and essentially helping in protecting the network data and resources. Further, it expands its connection to Admin Block, Learning Center 1, Learning Centre 2, and Library having a PC, a Laptop, and a Printer to each network and is assigned to an IP address for configuration.
 
